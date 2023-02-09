@@ -1,10 +1,5 @@
 public class Demo {
 
-    /**
-     * Application picks the factory type and creates it in run time (usually at
-     * initialization stage), depending on the configuration or environment
-     * variables.
-     */
     private static Application configureApplication() {
         Application app;
         GUIFactory factory;
@@ -16,5 +11,10 @@ public class Demo {
         }
         app = new Application(factory);
         return app;
+    }
+
+    public static void main(String[] args) {
+        Application app = configureApplication();
+        app.paint();
     }
 }
