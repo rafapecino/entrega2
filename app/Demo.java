@@ -17,3 +17,4 @@ public class Demo {
         app = new Application(factory);
         return app;
     }
+}

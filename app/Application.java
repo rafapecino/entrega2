@@ -10,4 +10,4 @@ public class Application {
     public void paint() {
         button.paint();
         checkbox.paint();
-    }
+    }}
